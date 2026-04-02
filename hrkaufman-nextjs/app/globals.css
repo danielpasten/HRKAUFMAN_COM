@@ -1,0 +1,15 @@
+/* Minimal resets — the WordPress theme style.css handles all site styling */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure Next.js Link components inside nav inherit WP menu styles */
+#access a,
+#menu-main a {
+  text-decoration: none;
+}
